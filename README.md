@@ -1,8 +1,20 @@
 # Events Board : Ruby on Rails CRUD web application
 
-A demo CRUD web app made with Ruby on Rails. Refer to my blog post [link here] for detailed instructions on how to make this application.
+A demo CRUD web app made with Ruby on Rails. Refer to my blog post [Making a simple CRUD Web Application with Ruby on Rails](https://) for detailed instructions on how to make this application.
 
 ## Screenshots
+* Home Page
+  <p align="center">
+   <img src=screenshots/home.png width=600 height=300>
+  </p>
+* Dashboard
+  <p align="center">
+   <img src=screenshots/dashboard.png width=600 height=300>
+  </p>
+* Form
+   <p align="center">
+    <img src=screenshots/form.png width=600 height=300>
+   </p>
 
 ## Some details about the project
 The app displays information about an event, where and when it is happening. It also has a dashboard to add, update and delete events.
