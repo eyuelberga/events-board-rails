@@ -1,0 +1,41 @@
+<div class="container">
+  <%= form_for @event do |f| %>
+    <div class="row">
+    <div class="col s12">
+      <div class="card blue lighten-5">
+        <div class="card-content white-text">
+          <div class="row">
+            <div class="input-field col s12">
+              <%= f.text_field :title %>
+              <label class="active" for="title"> <%= f.label :title %></label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <%= f.text_area :desc, class: 'materialize-textarea' %>
+              <label class="active" for="title"> <%= f.label :desc %></label>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix light-blue-text">date_range</i>
+                <%= f.text_field :when %>
+                <label class="active" for="title">  <%= f.label :when %></label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix light-blue-text">location_on</i>
+                <%= f.text_field :where %>
+                <label class="active" for="title">  <%= f.label :where %></label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s5"></div>
+              <div class="col s5"><%= f.submit nil?, class: 'btn-large light-blue'%></div>
+              <div class="col s4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <% end %>
+</div>

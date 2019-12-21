@@ -1,0 +1,27 @@
+
+<div class="container">
+<table class="responsive-table highlight">
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>When</th>
+    <th>Where</th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @events.each_with_index do |event, index|%>
+  <tr>
+    <td><span class="truncate"><%= event.title %></span></td>
+    <td ><span class="truncate"><%= event.when %></span></td>
+    <td ><span class="truncate"><%= event.where %></span></td>
+    <td><%= link_to "edit", edit_event_path(event),class:'btn btn-small' %></td>
+    <td><td><%= link_to "delete", event_path(event),method: :delete, data:{ confirm: "Are you sure you want to delete this event?"}, class:'btn btn-small red' %></td>
+  </tr>
+    <%end %>
+  </tbody>
+</table>
+
+</div>
