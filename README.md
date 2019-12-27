@@ -1,6 +1,6 @@
 # Events Board : Ruby on Rails CRUD web application
 
-A demo CRUD web app made with Ruby on Rails. Refer to my blog post [Making a simple CRUD Web Application with Ruby on Rails](https://) for detailed instructions on how to make this application.
+A demo CRUD web app made with Ruby on Rails. Refer to my blog post [Making a simple CRUD Web Application with Ruby on Rails](https://medium.com/@eyuelwoldemichael/making-a-simple-crud-web-application-with-ruby-on-rails-e03793728e09) for detailed instructions on how to make this application.
 
 ## Screenshots
 * Home Page
